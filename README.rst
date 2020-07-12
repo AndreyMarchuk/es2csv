@@ -7,6 +7,10 @@ A CLI tool for exporting data from Elasticsearch into a CSV file
 
 Command line utility, written in Python, for querying Elasticsearch in Lucene query syntax or Query DSL syntax and exporting result as documents into a CSV file. This tool can query bulk docs in multiple indices and get only selected fields, this reduces query execution time.
 
+FORK INFO
+---------------
+Forked from Lyft version with minor compat fixes and install instructions update
+
 Quick Look Demo
 ---------------
 .. figure:: https://cloud.githubusercontent.com/assets/7491121/12016825/59eb5f82-ad58-11e5-81eb-871a49e39c37.gif
@@ -23,7 +27,7 @@ From source:
 
 .. code-block:: bash
 
-    $ pip install git+https://github.com/lyft/es2csv.git@lyft
+    $ pip install git+https://github.com/AndreyMarchuk/es2csv.git@lyft
 
 From pip:
 
